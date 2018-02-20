@@ -151,8 +151,11 @@ set expandtab
 " Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
 " which is the default
 map Y y$
- 
+
+map <F7> mzgg=G`z
+
 " Map <C-L> (redraw screen) to also turn off search highlighting until the
+    map <F7> 
 " next search
 nnoremap <C-L> :nohl<CR><C-L>
  
