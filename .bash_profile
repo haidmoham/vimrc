@@ -12,7 +12,7 @@ if [ -f ~/.bashrc ]; then
 fi
 #
 # Set path here:
-PATH=/bin:./
+#Don't fuck with random paths on random machines, always check what the current path is and if you need to change it
 #
 # Set prompt here:
 
